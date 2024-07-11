@@ -67,7 +67,7 @@ export default function QualityArea() {
                   />
                   <div className=" items-center flex flex-col gap-5 mt-10">
                     <h6 className="font-medium text-2xl">{quality.title}</h6>
-                    <span className="w-fit relative text-[#f7c59f] after:content-[''] after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#f7c59f] cursor-pointer after:absolute after:transition-all after:duration-300 hover:after:w-full max-lg:text-base">
+                    <span className="w-fit relative text-[#f7c59f] text-base after:content-[''] after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-[#f7c59f] cursor-pointer after:absolute after:transition-all after:duration-300 hover:after:w-full ">
                       Ver Menu
                     </span>
                   </div>
