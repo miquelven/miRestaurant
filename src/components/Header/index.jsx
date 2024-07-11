@@ -19,7 +19,7 @@ export default function Header() {
   }, [showMenu]);
 
   return (
-    <header className="z-10 py-5 font-light fixed top-0 left-0 right-0">
+    <header className="z-10 py-5 font-light fixed top-0 left-0 right-0  bg-transparent backdrop-blur-md">
       <Container>
         <div className=" text-sm flex  justify-between max-xl:flex-col max-xl:gap-7 max-md:hidden">
           <div className="flex gap-10  max-xl:justify-between">
@@ -58,7 +58,7 @@ export default function Header() {
       </Container>
       <hr className="border-white/50 mt-5 max-md:hidden" />
       <Container>
-        <div className="mt-8 flex justify-between max-xl:mt-10 max-md:mt-0">
+        <div className="mt-8 flex justify-between max-xl:mt-5 max-md:mt-0">
           <h1>logo</h1>
 
           <nav className="relative">
