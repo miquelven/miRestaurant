@@ -75,7 +75,10 @@ export default function Header() {
                   key={link.id}
                   className="pl-12 max-md:mt-10 max-md:pl-0 max-sm:mt-7"
                 >
-                  <span className=" relative transition-all duration-300 hover:text-[#f7c59f]  after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-[#f7c59f] hover:after:w-full after:transition-all after:duration-500 max-md:text-lg max-md:font-normal">
+                  <span
+                    onClick={() => setShowMenu(false)}
+                    className=" relative transition-all duration-300 hover:text-[#f7c59f]  after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-[#f7c59f] hover:after:w-full after:transition-all after:duration-500 max-md:text-lg max-md:font-normal"
+                  >
                     <a href={link.href}>{link.text}</a>
                   </span>
                 </li>
