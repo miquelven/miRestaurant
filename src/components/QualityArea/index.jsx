@@ -16,10 +16,10 @@ export default function QualityArea() {
 
   return (
     <section
-      className="relative z-0 h-screen flex flex-col pt-36  items-center  bg-no-repeat bg-center bg-cover max-md:mt-[600px] max-sm:pt-10 "
+      className="relative z-0 min-h-screen flex flex-col pt-36  items-center  bg-no-repeat bg-center bg-cover max-md:mt-[600px] max-sm:pt-10 "
       style={{ backgroundImage: `url(${wallpaper})` }}
     >
-      <div className="absolute z-10 inset-0 bg-gradient-to-r from-black via-black/80 to-black/60 "></div>
+      <div className="absolute z-10 inset-0 bg-gradient-to-r from-black via-black/80 to-black/60"></div>
       <Container>
         <div className="relative z-20 flex flex-col gap-24 max-sm:gap-20">
           <div className="px-60 flex flex-col gap-10 max-lg:px-40 max-md:px-20 max-sm:px-0">
