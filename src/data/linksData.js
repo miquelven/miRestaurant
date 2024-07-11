@@ -6,13 +6,13 @@ const linksData = [
   },
   {
     id: 2,
-    text: "Promoções",
-    href: "#promocoes",
+    text: "Menu",
+    href: "#menu",
   },
   {
     id: 3,
-    text: "Menu",
-    href: "#menu",
+    text: "Pratos",
+    href: "#pratos",
   },
   {
     id: 4,
