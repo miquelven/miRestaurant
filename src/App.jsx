@@ -6,6 +6,7 @@ import QualityArea from "./components/QualityArea";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Menu from "./components/Menu";
+import Special from "./components/Special";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <QualityArea />
       <Menu />
+      <Special />
     </>
   );
 }
