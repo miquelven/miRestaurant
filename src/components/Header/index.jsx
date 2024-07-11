@@ -58,7 +58,7 @@ export default function Header() {
       </Container>
       <hr className="border-white/50 mt-5 max-md:hidden" />
       <Container>
-        <div className="mt-16 flex justify-between max-xl:mt-10 max-md:mt-0">
+        <div className="mt-8 flex justify-between max-xl:mt-10 max-md:mt-0">
           <h1>logo</h1>
 
           <nav className="relative">
