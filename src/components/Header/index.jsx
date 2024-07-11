@@ -19,7 +19,7 @@ export default function Header() {
   }, [showMenu]);
 
   return (
-    <header className="py-5 relative h-screen font-light">
+    <header className="z-10 py-5 font-light fixed top-0 left-0 right-0">
       <Container>
         <div className=" text-sm flex  justify-between max-xl:flex-col max-xl:gap-7 max-md:hidden">
           <div className="flex gap-10  max-xl:justify-between">
