@@ -8,7 +8,10 @@ import SectionTextContent from "../SectionTextContent";
 
 export default function About() {
   return (
-    <section className="my-96 max-md:my-60">
+    <section
+      id="sobre"
+      className="my-96 max-md:my-60 scroll-mt-60 max-sm:scroll-mt-32"
+    >
       <Container>
         <div className="grid grid-cols-3 max-xl:grid-cols-2 max-xl:gap-44 max-lg:gap-10 max-md:flex max-md:flex-col max-md:gap-16">
           <div>

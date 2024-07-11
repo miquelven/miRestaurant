@@ -10,7 +10,10 @@ import WhatsappButton from "../WhatsappButton";
 
 export default function Special() {
   return (
-    <section className="relative mt-40 mb-40 min-h-screen flex  bg-black/40 max-md:mt- max-sm:flex-col-reverse max-sm:pb-20">
+    <section
+      id="especial"
+      className="relative mt-40 mb-40 min-h-screen flex  bg-black/40 max-md:mt- max-sm:flex-col-reverse max-sm:pb-20 max-sm:scroll-mt-10"
+    >
       <img
         src={wallpaper}
         alt="Imagem de um alimento"

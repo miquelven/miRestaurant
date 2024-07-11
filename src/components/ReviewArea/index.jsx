@@ -18,7 +18,7 @@ export default function ReviewArea() {
 
   return (
     <section
-      id="review"
+      id="avaliacoes"
       className="relative z-0 min-h-screen flex flex-col justify-center items-center  bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${wallpaper})` }}
     >

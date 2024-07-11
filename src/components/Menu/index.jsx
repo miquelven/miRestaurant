@@ -5,7 +5,10 @@ import menuData from "../../data/menuData";
 
 export default function Menu() {
   return (
-    <section className="min-h-screen pt-36 max-sm:mt-40 max-sm:pt-10 mb-40">
+    <section
+      id="menu"
+      className="min-h-screen pt-36 max-sm:mt-40 max-sm:pt-10 mb-40 max-sm:-scroll-mt-10"
+    >
       <Container>
         <div className="flex flex-col mt-20 gap-10 ">
           <SectionTextDecoration>Menu</SectionTextDecoration>

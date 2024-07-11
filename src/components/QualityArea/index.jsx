@@ -16,7 +16,8 @@ export default function QualityArea() {
 
   return (
     <section
-      className="relative z-0 min-h-screen flex flex-col pt-36  items-center  bg-no-repeat bg-center bg-cover max-md:mt-[600px] max-sm:pt-10 "
+      id="alimentos"
+      className="relative z-0 min-h-screen flex flex-col pt-36  items-center  bg-no-repeat bg-center bg-cover max-md:mt-[600px] max-sm:pt-10 max-sm:scroll-mt-10 "
       style={{ backgroundImage: `url(${wallpaper})` }}
     >
       <div className="absolute z-10 inset-0 bg-gradient-to-r from-black via-black/80 to-black/60"></div>
