@@ -24,7 +24,7 @@ export default function Footer() {
             </li>
           </ul>
           <h1>logo</h1>
-          <ul className="grid grid-cols-3  items-center max-lg:grid-cols-2 max-lg:gap-y-7 max-md:grid-cols-1 max-lg:text-center">
+          <ul className="flex items-center max-lg:grid max-lg:grid-cols-2 max-lg:gap-y-7 max-md:grid-cols-1 max-lg:text-center ">
             <li className="pr-3 border-r-2 border-[#f7c59f] max-lg:leading-7 max-lg:border-transparent">
               <p>
                 Rua das Flores 123. Bairro Jardim das Rosas. São Paulo - SP,
