@@ -9,6 +9,7 @@ import Menu from "./components/Menu";
 import Special from "./components/Special";
 import BenefitsArea from "./components/BenefitsArea";
 import ReviewArea from "./components/ReviewArea";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Special />
       <BenefitsArea />
       <ReviewArea />
+      <Footer />
     </>
   );
 }
