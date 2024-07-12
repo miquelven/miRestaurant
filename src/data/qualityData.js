@@ -1,6 +1,6 @@
-import bread from "../assets/imgs/bread.jpg";
-import appetizers from "../assets/imgs/appetizers.png";
-import drinks from "../assets/imgs/drinks.png";
+import bread from "../assets/imgs/bread.webp";
+import appetizers from "../assets/imgs/appetizers.webp";
+import drinks from "../assets/imgs/drinks.webp";
 
 const qualityData = [
   {

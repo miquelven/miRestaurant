@@ -1,4 +1,4 @@
-import wallpaper from "../../assets/imgs/reviewWallpaper.png";
+import wallpaper from "../../assets/imgs/reviewWallpaper.webp";
 import reviewData from "../../data/reviewData";
 
 import Slider from "react-slick";

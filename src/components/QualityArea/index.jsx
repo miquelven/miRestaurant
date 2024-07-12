@@ -2,7 +2,7 @@ import Container from "../Container";
 import SectionTextDecoration from "../SectionTextDecoration";
 import SectionTitle from "../SectionTitle";
 import SectionTextContent from "../SectionTextContent";
-import wallpaper from "../../assets/imgs/quality.png";
+import wallpaper from "../../assets/imgs/quality.webp";
 import Slider from "react-slick";
 import qualityData from "../../data/qualityData";
 

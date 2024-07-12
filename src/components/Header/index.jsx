@@ -7,7 +7,7 @@ import { IoMenu } from "react-icons/io5";
 import linksData from "../../data/linksData";
 import { useEffect, useState } from "react";
 
-import logo from "../../assets/imgs/logo.png";
+import logo from "../../assets/imgs/logo.webp";
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);

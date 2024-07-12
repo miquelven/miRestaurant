@@ -1,9 +1,9 @@
-import lasanha from "../assets/imgs/lasanha.png";
-import salada from "../assets/imgs/salada.png";
-import costela from "../assets/imgs/costela.png";
+import lasanha from "../assets/imgs/lasanha.webp";
+import salada from "../assets/imgs/salada.webp";
+import costela from "../assets/imgs/costela.webp";
 import risoto from "../assets/imgs/risoto.webp";
-import bacalhau from "../assets/imgs/bacalhau.png";
-import hamburger from "../assets/imgs/hamburger.png";
+import bacalhau from "../assets/imgs/bacalhau.webp";
+import hamburger from "../assets/imgs/hamburger.webp";
 
 const menuData = [
   {

@@ -1,12 +1,9 @@
 import Container from "../Container";
-import wallpaper from "../../assets/imgs/special.png";
+import wallpaper from "../../assets/imgs/special.webp";
 import SectionTextDecoration from "../SectionTextDecoration";
 import SectionTitle from "../SectionTitle";
 import SectionTextContent from "../SectionTextContent";
 import WhatsappButton from "../WhatsappButton";
-
-// import SectionTitle from "../SectionTitle";
-// import SectionTextContent from "../SectionTextContent";
 
 export default function Special() {
   return (

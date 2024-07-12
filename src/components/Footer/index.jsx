@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterestSquare } from "react-icons/fa";
 
-import logo from "../../assets/imgs/logo.png";
+import logo from "../../assets/imgs/logo.webp";
 
 export default function Footer() {
   return (
