@@ -12,6 +12,11 @@ import ReviewArea from "./components/ReviewArea";
 import ToTopButton from "./components/ToTopButton";
 import Footer from "./components/Footer";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+Aos.init();
+
 function App() {
   return (
     <>
