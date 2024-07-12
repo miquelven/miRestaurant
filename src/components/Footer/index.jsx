@@ -46,7 +46,14 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1886417.1587472982!2d-49.551483000694844!3d-22.563819553877718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5816bd8d8141%3A0x5d0d75f524b1473a!2sRestaurante%20New%20York!5e0!3m2!1spt-PT!2sbr!4v1720784007549!5m2!1spt-PT!2sbr"
+          allowfullscreen=""
+          className="border-0 h-64 mt-10 w-full mx-auto max-sm:h-44"
+          loading="lazy"
+        ></iframe>
       </Container>
+
       <div className="mt-10 py-5 flex justify-center items-center border-t-2 border-white/45">
         <p>
           Desenvolvido por{" "}
