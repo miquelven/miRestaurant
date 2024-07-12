@@ -61,11 +61,18 @@ export default function Header() {
       <hr className="border-white/50 mt-5 max-md:hidden" />
       <Container>
         <div className="mt-8 flex justify-between max-xl:mt-5 max-md:mt-0">
-          <img
-            src={logo}
-            alt="Imagem da logo"
-            className=" invert opacity-65  w-14 h-10 object-center object-fit"
-          />
+          <a
+            href="#"
+            className={`relative 
+            ${showMenu ? "z-0" : "z-30"}
+            `}
+          >
+            <img
+              src={logo}
+              alt="Imagem da logo"
+              className=" invert opacity-65  w-14 h-10 object-center object-fit"
+            />
+          </a>
 
           <nav className="relative">
             <ul

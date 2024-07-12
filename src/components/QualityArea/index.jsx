@@ -17,12 +17,16 @@ export default function QualityArea() {
   return (
     <section
       id="alimentos"
-      className="relative z-0 min-h-screen flex flex-col pt-36  items-center  bg-no-repeat bg-center bg-cover max-md:mt-[600px] max-sm:pt-10 max-sm:scroll-mt-10 "
+      className="relative z-0 min-h-screen flex flex-col pt-36 pb-20 items-center  bg-no-repeat bg-center bg-cover max-md:mt-[600px] max-sm:pt-10 max-sm:scroll-mt-10 "
       style={{ backgroundImage: `url(${wallpaper})` }}
     >
       <div className="absolute z-10 inset-0 bg-gradient-to-r from-black via-black/80 to-black/60"></div>
       <Container>
-        <div className="relative z-20 flex flex-col gap-24 max-sm:gap-20">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="400"
+          className="relative z-20 flex flex-col gap-24 max-sm:gap-20"
+        >
           <div className="px-60 flex flex-col gap-10 max-lg:px-40 max-md:px-20 max-sm:px-0">
             <div className="flex flex-col gap-2">
               <SectionTextDecoration>Alta Qualidade</SectionTextDecoration>

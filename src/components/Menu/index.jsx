@@ -7,6 +7,8 @@ export default function Menu() {
   return (
     <section
       id="menu"
+      data-aos="fade-up"
+      data-aos-delay="400"
       className="min-h-screen pt-36 max-sm:mt-40 max-sm:pt-10 mb-40 max-sm:-scroll-mt-10"
     >
       <Container>

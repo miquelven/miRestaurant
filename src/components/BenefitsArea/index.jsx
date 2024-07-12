@@ -6,7 +6,7 @@ import benefitsData from "../../data/benefitsData";
 
 export default function BenefitsArea() {
   return (
-    <section className="my-20">
+    <section className="my-20" data-aos="fade-up" data-aos-delay="400">
       <Container>
         <div className="flex flex-col gap-3 mb-28">
           <SectionTextDecoration>Por que nos escolher</SectionTextDecoration>

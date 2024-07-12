@@ -11,6 +11,8 @@ import WhatsappButton from "../WhatsappButton";
 export default function Special() {
   return (
     <section
+      data-aos="fade-up"
+      data-aos-delay="800"
       id="especial"
       className="relative mt-40 mb-40 min-h-screen flex  bg-black/40 max-md:mt- max-sm:flex-col-reverse max-sm:pb-20 max-sm:scroll-mt-10"
     >

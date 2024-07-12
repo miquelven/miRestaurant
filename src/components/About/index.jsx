@@ -13,7 +13,11 @@ export default function About() {
       className="my-96 max-md:my-60 scroll-mt-60 max-sm:scroll-mt-32"
     >
       <Container>
-        <div className="grid grid-cols-3 max-xl:grid-cols-2 max-xl:gap-44 max-lg:gap-10 max-md:flex max-md:flex-col max-md:gap-16">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="400"
+          className="grid grid-cols-3 max-xl:grid-cols-2 max-xl:gap-44 max-lg:gap-10 max-md:flex max-md:flex-col max-md:gap-16"
+        >
           <div>
             <SectionTextDecoration>Nossa história</SectionTextDecoration>
 

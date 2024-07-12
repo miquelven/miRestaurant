@@ -18,12 +18,14 @@ export default function ReviewArea() {
 
   return (
     <section
+      data-aos="fade-up"
+      data-aos-delay="1000"
       id="avaliacoes"
       className="relative z-0 min-h-screen flex flex-col justify-center items-center  bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${wallpaper})` }}
     >
       <div className="absolute z-10 inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/60 "></div>
-      <div className="relative  z-20 mt-32 w-full max-sm:w-full ">
+      <div className="relative  z-20 mt-12 w-full max-sm:w-full ">
         <Slider {...settings} className="w-4/6 mx-auto py-14 max-md:py-0">
           {reviewData.map((review) => (
             <div key={review.id}>
