@@ -7,6 +7,8 @@ import { IoMenu } from "react-icons/io5";
 import linksData from "../../data/linksData";
 import { useEffect, useState } from "react";
 
+import logo from "../../assets/imgs/logo.png";
+
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -59,7 +61,11 @@ export default function Header() {
       <hr className="border-white/50 mt-5 max-md:hidden" />
       <Container>
         <div className="mt-8 flex justify-between max-xl:mt-5 max-md:mt-0">
-          <h1>logo</h1>
+          <img
+            src={logo}
+            alt="Imagem da logo"
+            className=" invert opacity-65  w-14 h-10 object-center object-fit"
+          />
 
           <nav className="relative">
             <ul
@@ -69,7 +75,11 @@ export default function Header() {
                   : "max-md:opacity-0 max-md:z-0"
               }`}
             >
-              <h1 className="md:hidden mt-16 mb-10 max-sm:mt-5">Logo</h1>
+              <img
+                className="md:hidden mt-16 mb-10 max-sm:mt-5 invert opacity-65  w-14 h-10 object-center object-fit"
+                src={logo}
+                alt="Imagem da logo"
+              />
               {linksData.map((link) => (
                 <li
                   key={link.id}
