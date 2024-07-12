@@ -13,14 +13,14 @@ export default function Banner() {
           <h1
             data-aos="zoom-in"
             data-aos-delay="400"
-            className="text-8xl font-bold  text-center [text-shadow:_1px_3px_0_rgb(0_0_0_/_100%)] max-lg:text-7xl max-sm:text-5xl"
+            className="text-8xl font-bold  text-center [text-shadow:_1px_3px_0_rgb(0_0_0_/_100%)] max-lg:text-7xl max-sm:text-4xl"
           >
             Descubra Sabores Inesquecíveis!
           </h1>
           <h2
             data-aos="zoom-in"
             data-aos-delay="800"
-            className="font-medium text-center text-2xl [text-shadow:_1px_2px_0_rgb(0_0_0_/_100%)] max-lg:text-xl max-sm:text-lg"
+            className="font-medium text-center text-2xl [text-shadow:_1px_2px_0_rgb(0_0_0_/_100%)] max-lg:text-xl max-sm:text-base max-sm:px-3"
           >
             Venha com a sua familia e experimente uma comida deliciosa
           </h2>
